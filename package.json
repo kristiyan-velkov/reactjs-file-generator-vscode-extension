@@ -1,0 +1,416 @@
+{
+  "name": "reactjs-file-gelenator",
+  "displayName": "React.js File Generator",
+  "description": "Create React.js files.",
+  "version": "0.0.1",
+  "publisher": "kristiyanvelkov",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "kristiyan Velkov",
+    "url": "https://www.linkedin.com/in/kristiyan-velkov-763130b3/"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets",
+    "Extension Packs",
+    "Programming Languages",
+    "Visualization",
+    "Formatters",
+    "Education",
+    "Keymaps",
+    "Testing",
+    "Other"
+  ],
+  "keywords": [
+    "api",
+    "auth",
+    "boilerplate",
+    "bun",
+    "bundler",
+    "cli",
+    "code generator",
+    "code",
+    "command",
+    "component",
+    "create-react-app",
+    "create-react",
+    "create-reactjs-app",
+    "create-reactjs-project",
+    "create-reactjs",
+    "create",
+    "css",
+    "custom",
+    "customizable",
+    "db",
+    "deploy",
+    "dev",
+    "development",
+    "extension",
+    "file-generator",
+    "file",
+    "files",
+    "folder",
+    "framework",
+    "fullstack",
+    "generator",
+    "git",
+    "github",
+    "html",
+    "i18n",
+    "i18react",
+    "init",
+    "interface",
+    "interfaces",
+    "javascript",
+    "js",
+    "json",
+    "jsx",
+    "language",
+    "layout",
+    "loading",
+    "migrate",
+    "migration",
+    "module",
+    "modules",
+    "react 13",
+    "react 14",
+    "react",
+    "react auth",
+    "react-auth",
+    "reactauth",
+    "reactjs",
+    "reactjs 15",
+    "reactjs-16",
+    "reactjs-17",
+    "reactjs-18",
+    "reactjs-19",
+    "reactjs-20",
+    "reactjs-file-generator",
+    "reactjs-file",
+    "reactjs-generator",
+    "reactjs",
+    "reactjs",
+    "reactjs13",
+    "reactjs14",
+    "reactjsfile",
+    "reactjsfilegenerator",
+    "reactjsgenerator",
+    "reactjsproject",
+    "node",
+    "nodejs",
+    "npm",
+    "orm",
+    "page",
+    "pages",
+    "pnpm",
+    "prisma cli",
+    "prisma db",
+    "prisma migrate",
+    "prisma studio",
+    "prisma-orm",
+    "prisma",
+    "prismacli",
+    "prismadb",
+    "prismamigrate",
+    "prismastudio",
+    "drizzle cli",
+    "drizzle db",
+    "drizzle-orm",
+    "drizzle",
+    "drizzlecli",
+    "drizzledb",
+    "drizzlemigrate",
+    "drizzlestudio",
+    "project",
+    "react 16",
+    "react 17",
+    "react",
+    "reactjs",
+    "reactjs16",
+    "reactjs17",
+    "reactjs18",
+    "reactjsfile",
+    "reactjsfilegenerator",
+    "reactjsgenerator",
+    "reactjsproject",
+    "schema.prisma",
+    "schema",
+    "schemas",
+    "schematics",
+    "seed",
+    "server",
+    "snippet",
+    "snippets",
+    "stack",
+    "start",
+    "starter kit",
+    "starter-kit",
+    "starter",
+    "starterkit",
+    "kristiyan velkov",
+    "tailwind css",
+    "tailwind-css",
+    "tailwind",
+    "tailwindcss",
+    "template",
+    "terminal",
+    "test",
+    "testing",
+    "tool",
+    "tools",
+    "trpc",
+    "ts",
+    "tsx",
+    "turbo-mode",
+    "turbo",
+    "typescript",
+    "vercel",
+    "vscode extension",
+    "vscode-extension",
+    "vscode",
+    "vscode",
+    "yarn",
+    "zod",
+    "react cli",
+    "react command line interface",
+    "react-cli",
+    "react generate files",
+    "react-generate file"
+  ],
+  "homepage": "https://github.com/kristiyan-velkov/reactjs-file-generator-vscode-extension",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristiyan-velkov/reactjs-file-generator-vscode-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/kristiyan-velkov/reactjs-file-generator-vscode-extension/issues"
+  },
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "reactjs.files.all",
+        "title": "App router",
+        "category": "react.js 1"
+      },
+      {
+        "command": "reactjs.files.selected",
+        "title": "Generate Selected",
+        "category": "react.js 1"
+      },
+      {
+        "command": "reactjs.file.page",
+        "title": "Page",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.loading",
+        "title": "Loading",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.layout",
+        "title": "Layout",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.template",
+        "title": "Template",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.default",
+        "title": "Default",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.error",
+        "title": "Error",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.not-found",
+        "title": "Not-found",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.route",
+        "title": "Route",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.global-error",
+        "title": "Global-error",
+        "category": "react.js"
+      },
+      {
+        "command": "reactjs.file.middleware",
+        "title": "Middleware",
+        "category": "react.js"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "reactjs.explorer.submenu",
+        "label": "react.js File"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "submenu": "reactjs.explorer.submenu",
+          "group": "2_workspace"
+        }
+      ],
+      "reactjs.explorer.submenu": [
+        {
+          "command": "reactjs.files.all",
+          "group": "1"
+        },
+        {
+          "command": "reactjs.files.selected",
+          "group": "1"
+        },
+        {
+          "command": "reactjs.file.page",
+          "group": "2"
+        },
+        {
+          "command": "reactjs.file.loading",
+          "group": "3"
+        },
+        {
+          "command": "reactjs.file.template",
+          "group": "4"
+        },
+        {
+          "command": "reactjs.file.layout",
+          "group": "4"
+        },
+        {
+          "command": "reactjs.file.default",
+          "group": "4"
+        },
+        {
+          "command": "reactjs.file.error",
+          "group": "5"
+        },
+        {
+          "command": "reactjs.file.not-found",
+          "group": "5"
+        },
+        {
+          "command": "reactjs.file.route",
+          "group": "6"
+        },
+        {
+          "command": "reactjs.file.global-error",
+          "group": "7"
+        },
+        {
+          "command": "reactjs.file.middleware",
+          "group": "7"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "react.js File Generator",
+      "properties": {
+        "reactFileGenerator.fileExtension": {
+          "type": "string",
+          "default": ".tsx",
+          "enum": [
+            ".tsx",
+            ".jsx",
+            ".js",
+            ".ts"
+          ],
+          "description": "Default file extension for generated files (.tsx,.jsx, .js or .ts)."
+        },
+        "reactFileGenerator.templates": {
+          "type": "object",
+          "properties": {
+            "page": {
+              "type": "string",
+              "default": "export default function ${name}() { return <div>${name} Page</div>; }",
+              "description": "Template for generating react.js page files. Use ${name} to insert the page function name."
+            },
+            "loading": {
+              "type": "string",
+              "description": "Template for generating react.js layout files. Use ${name} to insert the function name."
+            },
+            "layout": {
+              "type": "string",
+              "description": "Template for generating loading component files."
+            },
+            "template": {
+              "type": "string",
+              "description": "Template for generating react.js template files. Use ${name} to insert the function name."
+            },
+            "default": {
+              "type": "string",
+              "description": "Template for generating react.js default files."
+            },
+            "error": {
+              "type": "string",
+              "description": "Template for generating error files."
+            },
+            "not-found": {
+              "type": "string",
+              "description": "Template for generating not-found files."
+            },
+            "middleware": {
+              "type": "string",
+              "default": "import { reactRequest} from \"react/server\";\n\n// This function can be marked async if using await inside\nexport function middleware(request: reactRequest) {\n  // Middleware logic goes here\n}\n\nexport const config = {\n  matcher: \"\",\n};",
+              "description": "Template for generating layout files."
+            },
+            "global-error": {
+              "type": "string",
+              "description": "Template for generating global-error file."
+            },
+            "route": {
+              "type": "string",
+              "description": "Template for generating route file."
+            }
+          },
+          "description": "Templates for generating react.js files. Use ${name} as a placeholder within templates."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^18.19.17",
+    "@types/vscode": "^1.86.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "fs-extra": "^11.2.0",
+    "react-cli-turbo": "^0.0.9",
+    "path": "^0.12.7"
+  }
+}
